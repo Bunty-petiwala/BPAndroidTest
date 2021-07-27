@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.comnet.androidtest.ui.home.HomeFragment"
+        android:name="com.comnet.androidtest.ui.tesla.TeslaNewsFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_tesla_news" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.comnet.androidtest.ui.dashboard.DashboardFragment"
+        android:name="com.comnet.androidtest.ui.apple.AppleNewsFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_apple_news" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.comnet.androidtest.ui.notifications.NotificationsFragment"
+        android:name="com.comnet.androidtest.ui.journal.JournalFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_journal" />
 </navigation>

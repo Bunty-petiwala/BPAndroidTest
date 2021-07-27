@@ -11,7 +11,7 @@ import com.comnet.androidtest.utils.NetworkUtils
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
 
-open class BaseActivity : AppCompatActivity() {
+abstract class BaseActivity : AppCompatActivity() {
 
     private var mInternetCheckCount = 0
 
